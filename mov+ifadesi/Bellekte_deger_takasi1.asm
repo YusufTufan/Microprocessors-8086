@@ -1,3 +1,5 @@
+;Bu Assembly programı, bellekteki iki farklı konumda saklanan değerleri birbirleriyle takas ederek yer değiştirir.
+
 MOV DX, 1000H    ; DX REGISTERINA 1000H YÜKLENİYOR.
 MOV DS, DX       ; DS REGISTERI DX'E ATANARAK VERİ SEGMENTİ BELİRLENİYOR.
 MOV BX, 0500H    ; BX REGISTERINA 0500H ADRESİ YÜKLENİYOR (X'İN ADRESİ: 10500H)
