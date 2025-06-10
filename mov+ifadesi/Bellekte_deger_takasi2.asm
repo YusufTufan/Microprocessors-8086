@@ -1,3 +1,5 @@
+;Bu Assembly programı, bellekteki üç farklı konumda saklanan değerleri birbirleriyle takas ederek yer değiştirir.
+
 MOV DX, 1200H     ; DX registerına 1200H yükleniyor (Bellek segmenti)
 MOV DS, DX        ; DS registerına DX atanıyor (Bellek segmenti belirleniyor)
 MOV CL, [0000H]   ; 12000H adresindeki Z'in değerini CL’ye al
