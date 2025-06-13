@@ -1,4 +1,4 @@
-; Y = X^2 - 7*X ifadesini 8086 Assembly komutlarıyla hesaplayan program
+; Y = X^3 - 7*X ifadesini 8086 Assembly komutlarıyla hesaplayan program
 ; X, F0020H adresinden alınır
 ; Y, F0000H adresine yazılır
 
@@ -12,6 +12,7 @@ MOV AL, CL            ; AL = X
 MUL CL                ; X * X → AX = X^2
 
 MOV CH, 00H           ; CH = 0, böylece CX register'ı güvenli biçimde ayarlanabilir
+MUL CX
 MOV CX, AX            ; CX = X^2 (sonucu CX'te tut)
 
 MOV AL, 07H           ; AL = 7
