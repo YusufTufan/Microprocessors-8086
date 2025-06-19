@@ -1,5 +1,5 @@
 # Microprocessors-8086 (Mikroişlemciler-8086)
-8086 Assembly codes and microprocessor projects.
+8086 Assembly codes and microprocessor projects. 
 
 Bu repository, **8086 Assembly komut kümesini** incelemek, **önceden yazılmış komutları paylaşmak** ve **yeni denemeler yapmak** amacıyla oluşturulmuştur. Burada, **mikroişlemci programlama** alanında araştırmalar yapmak, çeşitli komut yapılarını denemek ve düşük seviyeli programlama tekniklerini test etmek mümkündür.
 
